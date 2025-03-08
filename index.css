@@ -1,0 +1,48 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("background.png");
+    background-size: cover;
+    font-weight: bold;
+    color: #2E3B3E; /* Dark teal for better contrast */
+    text-align: center;
+}
+
+h1 {
+    color: #55899A; /* Warm orange for better readability */
+}
+
+#message-el {
+    font-style: italic;
+    color: #264653; /* Deep blue-green for elegance */
+}
+
+button {
+    color: white;
+    width: 160px;
+    background: #2A9D8F; /* Vibrant teal for buttons */
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1D6D68; /* Darker teal on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #264653;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
